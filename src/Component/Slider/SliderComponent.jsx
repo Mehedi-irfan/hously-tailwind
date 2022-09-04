@@ -8,12 +8,12 @@ import "swiper/css";
 const SliderComponent = () => {
 
     return (
-        <div className='md:px-6 px-2 py-4 overflow-hidden '>
+        <div className='md:px-6 px-2 py-4 overflow-hidden  '>
             <Swiper>
 
                 {/* slider img one  */}
                 <SwiperSlide>
-                    <div className='relative md:top-16 top-12'>
+                    <div className='relative md:top-16 top-12 '>
                         <img className='bg-no-repeat bg-cover bg-center  object-cover md:rounded-3xl  rounded-lg' src={sliderImg1} alt="" />
                         <div className='absolute top-0 rounded-3xl text-white bg-gray-700/50 w-full h-full flex flex-col justify-center'>
                             <h1 className='md:text-5xl font-semibold tracking-wider md:ml-28 ml-6 leading-normal '>
