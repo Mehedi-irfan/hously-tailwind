@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         sans: ['Encode Sans SC', 'sans-serif']
       },
+
     },
   },
   plugins: [],
