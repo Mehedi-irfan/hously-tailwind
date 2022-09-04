@@ -12,9 +12,9 @@ const WorksComponent = () => {
             </div>
 
             {/* work card */}
-            <div className='md:flex justify-center items-center mt-20 gap-5'>
+            <div className='md:flex justify-center items-center mt-20 gap-5 '>
                 {/* one card  */}
-                <div>
+                <div className='hover:shadow-lg shadow-green-800 transition-shadow duration-500 py-6 px-2 rounded-lg'>
                     <div className='flex justify-center items-center bg-green-50 py-10 text-green-700 text-3xl w-[100px]  mx-auto clip-path'>
                         <BsHouseDoor className='' />
                     </div>
@@ -26,7 +26,7 @@ const WorksComponent = () => {
 
 
                 {/* 2nd card  */}
-                <div>
+                <div className='hover:shadow-lg shadow-green-800 transition-shadow duration-500 py-6 px-2 rounded-lg'>
                     <div className='flex justify-center items-center bg-green-50 py-10 text-green-700 text-3xl w-[100px]  mx-auto clip-path'>
                         <BsHandbag />
                     </div>
@@ -38,7 +38,7 @@ const WorksComponent = () => {
 
 
                 {/* 3rd card  */}
-                <div>
+                <div className='hover:shadow-lg shadow-green-800 transition-shadow duration-500 py-6 px-2 rounded-lg'>
                     <div className='flex justify-center items-center bg-green-50 py-10 text-green-700 text-3xl w-[100px]  mx-auto clip-path'>
                         <FiKey />
                     </div>
