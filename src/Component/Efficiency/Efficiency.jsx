@@ -18,7 +18,7 @@ const Efficiency = () => {
                     <h1 className='md:text-4xl text-xl font-semibold tracking-wider selection:bg-green-600 selection:text-white'>Efficiency. Transparency. <br />
                         Control.</h1>
                     <p className='mt-6 text-gray-500 tracking-wider font-medium leading-6 selection:bg-green-600 selection:text-white'>Hously developed a platform for the Real Estate marketplace that allows buyers and sellers to easily execute a transaction on their own. The platform drives efficiency, cost transparency and control into the hands of the consumers. Hously is Real Estate Redefined.</p>
-                    <button className='mt-6 text-white bg-green-600 py-2 px-10 rounded-lg'>Learn More</button>
+                    <button className='mt-6 text-white bg-green-600 py-3 px-10 rounded-lg'>Learn More</button>
                 </div>
             </div>
 

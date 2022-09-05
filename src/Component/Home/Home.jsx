@@ -1,5 +1,6 @@
 import React from 'react'
 import Efficiency from '../Efficiency/Efficiency'
+import FeaturedComponent from '../FeaturedComponent/FeaturedComponent'
 import WorksComponent from '../WorksComponent/WorksComponent'
 import Header from './Header/Header'
 
@@ -9,6 +10,7 @@ const Home = () => {
             <Header />
             <Efficiency />
             <WorksComponent />
+            <FeaturedComponent />
         </>
     )
 }
