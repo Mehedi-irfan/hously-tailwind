@@ -4,8 +4,11 @@ import ClientComponent from '../ClientComponent/ClientComponent'
 import Efficiency from '../Efficiency/Efficiency'
 import FeaturedComponent from '../FeaturedComponent/FeaturedComponent'
 import Getintouch from '../Getintouch/Getintouch'
+import NewsLatter from '../NewsLatter/NewsLatter'
 import WorksComponent from '../WorksComponent/WorksComponent'
-import Header from './Header/Header'
+import Header from './Header/Header';
+import UpButton from './../UpButton/UpButton';
+
 
 const Home = () => {
     return (
@@ -16,7 +19,9 @@ const Home = () => {
             <FeaturedComponent />
             <ClientComponent />
             <Getintouch />
+            <NewsLatter />
             <Footer />
+            <UpButton />
         </>
     )
 }

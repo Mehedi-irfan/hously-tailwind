@@ -10,7 +10,7 @@ const Getintouch = () => {
             </div>
 
             <div className='flex justify-center items-center mt-8'>
-                <button className='flex items-center justify-center bg-green-600 text-white px-7 py-2 rounded-lg'><BsTelephone /> <p className='ml-2'>Contact us</p></button>
+                <button className='flex items-center justify-center bg-green-600 text-white px-7 py-2 rounded-lg hover:bg-green-800 transition-all duration-300'><BsTelephone /> <p className='ml-2'>Contact us</p></button>
             </div>
 
         </div>

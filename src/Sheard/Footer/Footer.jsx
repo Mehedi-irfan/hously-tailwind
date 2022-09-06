@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoImg from '../../images/logo.png'
+import LogoImg from '../../images/footer-logo.png'
 import { AiOutlineRight } from 'react-icons/ai';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { BsTelephone } from 'react-icons/bs'
@@ -12,7 +12,7 @@ import { FiTwitter } from 'react-icons/fi'
 
 const Footer = () => {
     return (
-        <footer className='bg-slate-900'>
+        <footer className='bg-slate-900 '>
             <div className='w-5/6 mx-auto py-28 md:flex md:justify-between   text-white md:space-y-0 space-y-8'>
 
                 <div>
